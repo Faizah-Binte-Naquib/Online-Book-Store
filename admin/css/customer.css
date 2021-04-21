@@ -1,0 +1,162 @@
+#heading{
+    display: grid;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+    grid-gap: 20px;
+    padding: 20px 0px;
+}
+
+#heading:before,
+#heading:after {
+    content: '';
+    border-top: 2px solid;
+}
+
+.customerDiv #userImg{
+    height: 90px;
+    width: 75px;
+}
+.customerDiv #name{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.customerDiv .a1{
+    color: brown; 
+}
+
+.customerDiv .view{
+    color:darkgreen; 
+}
+
+
+.memberInfo h3{
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.memberInfo #cusname, .memberInfo span, .bookInformation #cusname, .bookInformation span{
+    font-weight: 500;
+}
+
+.memberInfo p{
+    line-height: 1.3em;
+    text-transform: capitalize;
+    color: black;
+}
+.bookInformation h3{
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 20px;
+  }
+  .bookInformation img{
+    margin-top: 20px;
+    height: 280px;
+    width: 150px;
+    border: 2px solid black;
+  }
+  
+  .dialogify .dialogify__fixedwidth {
+    width: 750px !important;
+  }
+
+
+/*------------------------------- Contact page -----------------------------*/
+.contact-infoo{
+    border: 1px solid black;
+    margin: 10px 30px;
+    padding: 15px;
+}
+
+.contact-info{
+    border: 1px solid black;
+    margin: 0px 30px;
+    padding: 15px;
+}
+
+.contact-infoo #checkboxUI{
+    border: 1px solid black;
+
+}
+
+
+.contact-info button{
+    color: limegreen;
+
+}
+
+.contact-info button:hover {
+    color: black;
+
+}
+
+.messageInfo p{
+    word-break: break-all;
+}
+.messageInfo div{
+    color: rgb(146, 146, 146);
+    word-break: break-all;
+    font-size: 15px;
+}
+
+.messageInfo h3{
+    text-transform: capitalize;
+}
+
+/*-------------------------------------- order page ------------------------------*/
+
+.search-container{
+    float: right;
+    margin: 20px 0px 10px;
+}
+
+
+@media (max-width: 583px) {
+
+    .search-container input{
+        margin:10px 0px;
+       
+        }
+}
+
+.penddingTable .booknameDesign, .deliveredTable .booknameDesign, .discountTable .name, .rentTable .booknameDesign{
+    color: limegreen;
+    text-transform: capitalize;
+    text-decoration: underline;
+    
+}
+
+.penddingTable .booknameDesign:hover, .deliveredTable .booknameDesign:hover, .discountTable .name:hover, .rentTable .booknameDesign:hover{
+    color: black;
+    text-transform: capitalize;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/*---------------------------- discount page --------------------------------*/
+
+.leftside{
+    margin:56px 10px 0px 30px;
+}
+
+.search-container-discount{
+    display: inline-flex;
+    float: right;
+    margin-bottom:20px;
+}
+
+.form-group{
+    padding: 10px;
+}
+
+
+@media (max-width: 583px) {
+
+    .leftside{
+        margin:20px 5px 5px 5px;
+    }
+}
+    
